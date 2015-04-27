@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>AngularJS - Live Digits Demo</title>
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/angular/angular.min.js"></script>
+
+    <script src="../dist/live-digits.js"></script>
+    <link rel="stylesheet" href="../dist/live-digits.css"/>
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: table;
+            color: #ffffff;
+            background: #000000;
+            font-family: "Trebuchet MS", sans-serif;
+        }
+
+        .container {
+            display: table-row;
+            height: 90%;
+        }
+
+        .wrapper {
+            display: table-cell;
+            vertical-align: middle;
+            font-size: 7em;
+        }
+
+        .wrapper p {
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .wrapper > div {
+            border-top: dotted 1px #ffffff;
+            border-bottom: dotted 1px #ffffff;
+            width: 610px;
+            padding: 5px 0;
+            margin: 0 auto;
+        }
+
+        .footer {
+            display: table-row;
+            height: 10%;
+            width: 100%;
+            text-align: center;
+            font-size: 0.8em;
+        }
+
+        .footer a {
+            color: #efefef;
+            padding: 5px;
+            display: inline-block;
+        }
+    </style>
+
+    <script>
+
+        angular.module('udidu.liveDigitsDemo', [
+
+            'udidu.live-digits'
+
+        ]).controller('mainController', [
+
+            '$scope', '$timeout',
+
+            function ($scope, $timeout) {
+
+                $scope.liveValue = 100000;
+
+                function _updateLiveValue() {
+                    $scope.liveValue = (Math.random() * 200000) + 100000;
+
+                    $timeout(_updateLiveValue, 1000);
+                }
+
+                _updateLiveValue();
+
+            }]);
+
+
+    </script>
+
+</head>
+<body ng-app="udidu.liveDigitsDemo" ng-controller="mainController">
+
+<div class="container">
+    <div class="wrapper">
+        <p>
+            AngularJS Live Digits
+        </p>
+        <div>
+            <live-digits value="liveValue|currency" duration="300"></live-digits>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div>Created by Udi Talias</div>
+    <div>
+        <a href="https://github.com/uditalias/live-digits">Source</a>
+    </div>
+</div>
+
+</body>
+</html>

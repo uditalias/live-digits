@@ -1,0 +1,40 @@
+{
+  "name": "live-digits",
+  "version": "1.0.0",
+  "description": "AngularJS module for slide animation digits inside numbers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uditalias/live-digits.git"
+  },
+  "keywords": [
+    "numbers",
+    "counter",
+    "digits",
+    "slide",
+    "animation",
+    "number",
+    "digit",
+    "angular",
+    "angularjs"
+  ],
+  "author": "Udi Talias <udi.talias@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uditalias/live-digits/issues"
+  },
+  "homepage": "https://github.com/uditalias/live-digits",
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-concurrent": "1.0.0",
+    "grunt-contrib-clean": "0.6.0",
+    "grunt-contrib-compass": "1.0.3",
+    "grunt-contrib-concat": "0.5.1",
+    "grunt-contrib-copy": "0.8.0",
+    "grunt-contrib-cssmin": "0.12.2",
+    "grunt-contrib-uglify": "0.9.1",
+    "grunt-usemin": "3.0.0",
+    "load-grunt-config": "0.17.1",
+    "load-grunt-tasks": "3.1.0",
+    "time-grunt": "1.1.1"
+  }
+}
