@@ -35,3 +35,20 @@ Just import `live-digits.min.js` and `live-digits.min.css` and add it to your ap
 </body>
 
 ```
+
+##build
+
+Clone the project and run:
+
+```
+$ npm install
+
+$ grunt build
+```
+
+The `dist/` folder will erased and the new build files will be copy into it
+
+
+##demo
+
+Clone the project and run the file `demo/index.html`, you don't need any server to run it, just dblclick on it
