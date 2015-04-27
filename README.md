@@ -36,6 +36,15 @@ Just import `live-digits.min.js` and `live-digits.min.css` and add it to your ap
 
 ```
 
+##options
+
+The only 2 options you can config are `value` and `duration`
+
+The `value` is the number (or string yeah!) which will be watched by the directive
+to animate the value change.
+
+The `duration` is optional and specifies the animation duration in milliseconds (default is `200`).
+
 ##build
 
 Clone the project and run:
