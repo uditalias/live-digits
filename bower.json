@@ -1,0 +1,28 @@
+{
+  "name": "live-digits",
+  "version": "1.0.0",
+  "homepage": "https://github.com/uditalias/live-digits",
+  "authors": [
+    "udidu <udi.talias@gmail.com>"
+  ],
+  "description": "AngularJS module for slide animation digits inside numbers",
+  "keywords": [
+    "numbers",
+    "counter",
+    "digits",
+    "slide",
+    "animation",
+    "number",
+    "digit",
+    "angular",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
