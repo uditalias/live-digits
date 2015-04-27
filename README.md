@@ -46,7 +46,7 @@ $ npm install
 $ grunt build
 ```
 
-The `dist/` folder will erased and the new build files will be copy into it
+The `dist/` folder will erase and the new build files will be copy into it
 
 
 ##demo
