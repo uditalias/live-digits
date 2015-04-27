@@ -1,6 +1,8 @@
 # live-digits v1.0.0
 > AngularJS module for slide animation digits inside numbers
 
+[Working Demo](http://uditalias.github.io/live-digits/demo/)
+
 ##installation
 `$ bower install --save live-digits`
 
@@ -65,17 +67,6 @@ $ grunt build
 ```
 
 The `dist/` folder will erase and the new build files will be copy into it
-
-
-##demo
-
-Clone the project and run:
-
-```
-$ bower install
-```
-
-Then run the file `demo/index.html` in your browser, you don't need any server to serv it, just dblclick on it.
 
 ##license
 
