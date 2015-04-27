@@ -67,3 +67,7 @@ $ bower install
 ```
 
 Then run the file `demo/index.html` in your browser, you don't need any server to serv it, just dblclick on it.
+
+##license
+
+MIT
