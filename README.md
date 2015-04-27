@@ -45,6 +45,15 @@ to animate the value change.
 
 The `duration` is optional and specifies the animation duration in milliseconds (default is `200`).
 
+##dependencies
+
+```json
+"dependencies": {
+  "angular": ">=1.x",
+  "jquery": ">=1.x"
+}
+```
+
 ##build
 
 Clone the project and run:
