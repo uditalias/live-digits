@@ -60,4 +60,10 @@ The `dist/` folder will erase and the new build files will be copy into it
 
 ##demo
 
-Clone the project and run the file `demo/index.html` in your browser, you don't need any server to serv it, just dblclick on it
+Clone the project and run:
+
+```
+$ bower install
+```
+
+Then run the file `demo/index.html` in your browser, you don't need any server to serv it, just dblclick on it.
