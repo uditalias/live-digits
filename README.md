@@ -3,10 +3,10 @@
 
 [Working Demo](http://uditalias.github.io/live-digits/demo/)
 
-##installation
+## installation
 `$ bower install --save live-digits`
 
-##usage
+## usage
 
 Just import `live-digits.min.js` and `live-digits.min.css` and add it to your app module
 
@@ -38,7 +38,7 @@ Just import `live-digits.min.js` and `live-digits.min.css` and add it to your ap
 
 ```
 
-##options
+## options
 
 The only 2 options you can config are `value` and `duration`
 
@@ -47,7 +47,7 @@ to animate the value change.
 
 The `duration` is optional and specifies the animation duration in milliseconds (default is `200`).
 
-##dependencies
+## dependencies
 
 ```json
 "dependencies": {
@@ -56,7 +56,7 @@ The `duration` is optional and specifies the animation duration in milliseconds 
 }
 ```
 
-##build
+## build
 
 Clone the project and run:
 
@@ -68,6 +68,6 @@ $ grunt build
 
 The `dist/` folder will erase and the new build files will be copy into it
 
-##license
+## license
 
 MIT
